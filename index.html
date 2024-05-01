@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dictionary</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/413/413835.png">
+    <link rel="stylesheet" href="./css/style2.css">
+    <script src="https://kit.fontawesome.com/4a978eedb6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="navbar flex">
+                <div class="logo flex"><img class="logoImg" src="../logo/Booklogo.png" alt="">
+                    <span class="logoHeading">My DICTIONARY App</span>
+                </div>
+                <div class="btnlink">
+                    <a href="history.html"><button type="button" class="historyBtn" id="historyBtn">HISTORY</button></a>
+                    
+                </div>
+            </div>
+            <!-- History Section -->
+            <div class="history">
+                <h2 class="hist-text">History</h2>
+
+            </div>
+            <div class="searchbar flex">
+                <form action="" class="form flex">
+                    <h2 class="searchHeading">Search for new word</h2>
+                    <div class="searchSection flex">
+                        <input class="searchItem" id="inp-Word" type="text">
+                        <a href="" id="searchBtn"><img class="searchIcon" src="../logo/6338475.png" alt=""></a>
+                    </div>
+                    <span class="Searching" id="Searching"></span>
+                </form>
+            </div>
+            <div class="suggestion-box">
+                <div class="not__found"></div>
+            </div>
+            <div id="result" class="result">
+                <div class="word ">
+                    <h3 class="show"></h3>
+                    <!-- <button class="sound-Icon" id = "sound-Icon"><i class="fa-sharp fa-solid fa-volume-high fa-2xl"></i></button> -->
+                </div>
+                <p class="meaning" id="wordDef">Defination will be showed here</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- <script src="./js/App.js"></script> -->
+    <script src="./js/App2.js"></script>r
+</body>
+
+</html>
